@@ -1,0 +1,48 @@
+.container {
+    margin: auto;
+    max-width: 1100px;
+}
+
+.header-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    .site-name {
+        .link-to-home {
+            font-family: Roboto Condensed;
+            font-size: 28px;
+            font-weight: 700;
+            line-height: 33px;
+            text-decoration: none;
+            color: black;
+
+            span {
+                color: rgba(159, 0, 19, 1);
+            }
+        }
+    }
+
+    .crumbs {
+        font-size: 24px;
+
+        .characters {
+            color: rgba(159, 0, 19, 1);
+            font-family: Roboto Condensed;
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 28px;
+        }
+
+        .comics {
+            color: black;
+            font-family: Roboto Condensed;
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 28px;
+        }
+
+    }
+
+}
