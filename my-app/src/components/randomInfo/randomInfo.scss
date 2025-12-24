@@ -1,0 +1,119 @@
+.random-info-wrapper {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+
+
+    .random-info-character {
+        padding: 35px 35px 35px 40px;
+        width: 50%;
+        display: flex;
+        gap: 30px;
+        box-shadow: 5px 5px 20px 0px rgba(0, 0, 0, 0.25);
+        background: rgba(255, 255, 255, 1);
+
+        h3.character-name {
+            color: rgba(0, 0, 0, 1);
+            font-family: Roboto Condensed;
+            font-size: 22px;
+            font-weight: 700;
+            line-height: 26px;
+            text-align: left;
+            margin: 0;
+        }
+
+        .character-info {
+            color: rgba(0, 0, 0, 1);
+            font-family: Roboto Condensed;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 16px;
+            width: 265px;
+        }
+
+        .button-block {
+            display: flex;
+            gap: 30px;
+
+            .homepage {
+                color: white;
+                border: 1px solid rgba(255, 255, 255, 1);
+                background-color: rgba(159, 0, 19, 1);
+                clip-path: polygon(0.00% 25.00%,10.00% 0.00%,100% 0%,100.00% 75.00%,90.00% 100%,0% 100%);
+                padding: 11px 18px;
+                text-transform: uppercase;
+                cursor: pointer;
+            }
+
+            .wiki {
+                color: white;
+                border: 1px solid rgba(255, 255, 255, 1);
+                background-color: rgba(92, 92, 92, 1);
+                clip-path: polygon(0.00% 25.00%,10.00% 0.00%,100% 0%,100.00% 75.00%,90.00% 100%,0% 100%);
+                padding: 11px 37px;
+                text-transform: uppercase;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .action-block {
+        width: 50%;
+        padding-top: 35px;
+        padding-bottom: 35px;
+        padding-left: 40px;
+        position: relative;
+        box-shadow: 5px 5px 20px 0px rgba(0, 0, 0, 0.25);
+        background: rgba(35, 34, 34, 1);
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+
+        .action-text {
+            color: rgba(255, 255, 255, 1);
+            font-family: Roboto Condensed;
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 28px;
+            letter-spacing: 0%;
+            text-align: left;
+            margin: 0;
+        }
+
+        span {
+            color: rgba(255, 255, 255, 1);
+            font-family: Roboto Condensed;
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 28px;
+            letter-spacing: 0%;
+            text-align: left;
+            margin-top: 33px;
+            margin-bottom: 13px;
+        }
+
+        button {
+            color: white;
+            padding: 11px 18px;
+            border: 1px solid rgba(35, 34, 34, 1);
+            background-color: rgba(159, 0, 19, 1);
+            clip-path: polygon(0.00% 25.00%,10.00% 0.00%,100% 0%,100.00% 75.00%,90.00% 100%,0% 100%);
+            text-transform: uppercase;
+            cursor: pointer;
+        }
+
+        img {
+            position: absolute;
+        }
+
+        .mjolnir {
+            top: 47px;
+            left: 397px;
+        }
+
+        .shield {
+            top: 136px;
+            left: 383px;
+        }
+    }
+}
