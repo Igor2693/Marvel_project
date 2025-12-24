@@ -1,0 +1,162 @@
+.main-block-wrapper {
+    display: flex;
+
+    .bg-visn {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+
+    .main-block-characters {
+        button {
+            margin-top: 45px;
+            margin-bottom: 45px;
+            color: white;
+            border: 1px solid rgba(255, 255, 255, 1);
+            background-color: rgba(159, 0, 19, 1);
+            clip-path: polygon(0.00% 25.00%,10.00% 0.00%,100% 0%,100.00% 75.00%,90.00% 100%,0% 100%);
+            padding: 11px 18px;
+            text-transform: uppercase;
+            cursor: pointer;
+        }
+    }
+
+    .all-characters {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 19px;
+    }
+
+    .character-card {
+        background-color: rgba(35, 34, 34, 1);
+        min-height: 318px;
+       span {
+        display: block;
+        color: rgba(255, 255, 255, 1);
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 15px;
+        font-family: Roboto Condensed;
+        font-style: Bold;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 26px;
+        letter-spacing: 0%;
+        text-align: left;
+        text-transform: uppercase;
+       }
+    }
+
+
+
+
+    .choose-characters-block {
+        box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.25);
+        background: rgba(255, 255, 255, 1);
+        padding: 18px;
+        max-width: 425px;
+
+        p {
+                color: rgba(0, 0, 0, 1);
+                font-family: Roboto Condensed;
+                font-style: Regular;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 16px;
+                letter-spacing: 0%;
+                text-align: left;
+            }
+
+        .comics-list {
+            display: flex;
+            flex-direction: column;
+            span {
+                color: rgba(0, 0, 0, 1);
+                font-family: Roboto Condensed;
+                font-style: Bold;
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 21px;
+                letter-spacing: 0%;
+                text-align: left;
+            }
+            ul {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                padding-left: 0;
+            }
+            li {
+                list-style: none;
+                box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+                background: rgba(255, 255, 255, 1);
+                color: rgba(0, 0, 0, 1);
+                font-family: Roboto Condensed;
+                font-style: Regular;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 16px;
+                letter-spacing: 0%;
+                text-align: left;
+                padding: 4px 0 4px 10px;
+            }
+        }
+
+        .choose-block-img {
+            display: flex;
+            gap: 25px;
+
+            .right-side {
+                display: flex;
+                flex-direction: column;
+            }
+            
+            span {
+                color: rgba(0, 0, 0, 1);
+                font-family: Roboto Condensed;
+                font-style: Bold;
+                font-size: 22px;
+                font-weight: 700;
+                line-height: 26px;
+                letter-spacing: 0%;
+                text-align: left;
+                text-transform: uppercase;
+            }
+
+            .button-block-right-side {
+                margin-top: 35px;
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+
+                .homepage {
+                color: white;
+                border: 1px solid rgba(255, 255, 255, 1);
+                background-color: rgba(159, 0, 19, 1);
+                clip-path: polygon(0.00% 25.00%,10.00% 0.00%,100% 0%,100.00% 75.00%,90.00% 100%,0% 100%);
+                padding: 11px 18px;
+                text-transform: uppercase;
+                cursor: pointer;
+            }
+
+            .wiki {
+                color: white;
+                border: 1px solid rgba(255, 255, 255, 1);
+                background-color: rgba(92, 92, 92, 1);
+                clip-path: polygon(0.00% 25.00%,10.00% 0.00%,100% 0%,100.00% 75.00%,90.00% 100%,0% 100%);
+                padding: 11px 37px;
+                text-transform: uppercase;
+                cursor: pointer;
+            }
+
+            }
+
+            img {
+                width: 150px;
+                height: 150px;
+            }
+            
+        }
+
+    }
+}
